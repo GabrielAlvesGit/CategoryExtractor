@@ -1,6 +1,6 @@
 # categoryExtractor
 
-# Projeto de Desenvolvido Web - Para ajudar no dia-a-dia do trabalho!
+## Projeto de Desenvolvido Web - Para ajudar no dia-a-dia do trabalho!
 
 <h1 align="center">
   <img src="./img/logo/logo.png" alt="Imagem do IFSP" width="250" height="230" style="border-radius: 50;">
