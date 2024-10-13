@@ -11,7 +11,7 @@ function getCategories() {
 
     scripts.forEach((script) => {
         // Verifica se o conteúdo do script contém 'var categories'
-        if (script.innerHTML.includes("var categories")) {
+        if (script.innerHTML.includes("categories")) {
             try {
                 // Executa o código do script para definir as variáveis no escopo global
                 eval(script.innerHTML);
@@ -21,8 +21,7 @@ function getCategories() {
                     // Dados das categorias
                     let output = "";
                     const currentUrl = window.location.href;
-                    const logoElement =
-                        document.querySelector(".header__logo img");
+                    const logoElement = document.querySelector("img");
                     const logoUrl = logoElement ? logoElement.src : "N/A";
 
                     // Strinsg com os dados de cada categoria
